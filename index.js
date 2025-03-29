@@ -6,7 +6,7 @@ async function generateName() {
     document.getElementById('response').textContent = '';
     document.getElementById('quote-bubble').style.display = 'block';
     document.getElementById('dots').style.display = 'block';
-    var API_KEY = "AIzaSyCpDpC5PJ9QiFXY6EqdAhQltzM5fcGWbVs";
+    var API_KEY = "AIzaSyDdcHq8dCKpjjlC1jDQVgBKhdBvhAjnRGA";
     var genAI = new GoogleGenerativeAI(API_KEY);
     var model = genAI.getGenerativeModel({ model: "gemini-1.5-pro", systemInstruction: "Create a name for a Pirate with the prompt and only return one name with 50 words of the context. Return the name clearly at the start with inverted commas" });
 
